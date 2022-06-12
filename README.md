@@ -2,11 +2,11 @@
 
 <p><a href="https://github.com/Joshua-Ho-Gwok-Hin/SGUS-Lithan-ACWD/tree/main/abc-learning-center">ABC Learning Center (Front-End Web Development)</a></p>
 
-A general depository of Projects and Assignments for self reference.<br><br>
+A general depository of Projects and Assignments for self reference.<br>
 
 Acquire Web Development Skills in: <br>
 HTML, CSS & JavaScript.<br>
-Angular JS, Java, JSP & Servlets.<br><br>
+Angular JS, Java, JSP & Servlets.<br>
 
 CERTIFICATES<br>
 NICF - Advanced Certificate in Software and Applications (Development & Deployment)<br>
