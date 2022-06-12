@@ -1,5 +1,5 @@
 # Advanced Certificate in Infocomm Technology (Software & Applications)<br>
-LITHAN ACADEMY PTE. LTD. (EDUCLAAS) - Sponsored by Singapore Government via SGUS Program
+LITHAN ACADEMY PTE. LTD. (EDUCLAAS) - Sponsored by the Singapore Government via SGUS Program
 
 <a href="https://github.com/Joshua-Ho-Gwok-Hin/Adv-Cert-Web-Dev/tree/main/abc-learning-center">ABC Learning Center (Front-End Web Development)</a><br>
 <a href="https://github.com/Joshua-Ho-Gwok-Hin/Adv-Cert-Web-Dev/tree/main/car-details">XYZ Cars (Angular Framework)</a><br>
