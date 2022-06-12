@@ -6,7 +6,7 @@ LITHAN ACADEMY PTE. LTD. (EDUCLAAS) - Sponsored by Singapore Government via SGUS
 <a href="https://github.com/Joshua-Ho-Gwok-Hin/Adv-Cert-Web-Dev/tree/main/battleship">Battleship Game (Java Fundamentals)</a><br>
 <a href="https://github.com/Joshua-Ho-Gwok-Hin/Adv-Cert-Web-Dev/tree/main/company-structure">Company Structure (Java Object Oriented Programming)</a><br>
 <a href="https://github.com/Joshua-Ho-Gwok-Hin/Adv-Cert-Web-Dev/tree/main/database">ABC Jobs Database (Database Design)</a>
-<a href="https://github.com/Joshua-Ho-Gwok-Hin/Adv-Cert-Web-Dev/tree/main/aaa">ABC Jobs Community Portal (Spring MVC Model)
+<a href="https://github.com/Joshua-Ho-Gwok-Hin/Adv-Cert-Web-Dev/tree/main/aaa">ABC Jobs Community Portal (Spring MVC Model)</a>
 
 A general depository of Projects and Assignments for self reference.<br>
 
