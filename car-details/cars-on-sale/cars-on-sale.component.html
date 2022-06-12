@@ -1,0 +1,30 @@
+<div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <h3>List of Available Cars</h3>
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Car Id</th>
+                <th>Make</th>
+                <th>Model</th>
+                <th>Year</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let c of cars" [class.selected] = "c === selectedProduct"
+              (click)="onSelect(c)">
+              <td>{{c.id}}</td>
+              <td>{{c.make}}</td>
+              <td>{{c.model}}</td>
+              <td>{{c.year}}</td>
+            </tr>
+            </tbody>
+          </table>
+      </div>
+      <div class="col">
+        <h3>Car Details</h3>
+        <app-car-details [c]="selectedProduct"></app-car-details>
+      </div>
+    </div>
+  </div>
