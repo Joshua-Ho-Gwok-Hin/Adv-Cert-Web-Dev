@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Properties>
+        <Property name="basePath">d:/mvc-logs</Property>
+    </Properties>
+  <Appenders>
+
+    <!-- Console Appender -->
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{yyyy-MMM-dd HH:mm:ss a} %-5level [%t] %logger{36} - %msg%n" />
+    </Console>
+
+    <!-- Rolling File Appender -->
+    <RollingFile name="RollingFile">
+      <FileName>${basePath}/aaa.log</FileName>
+      <FilePattern>${basePath}/archive/%d{yyyy-MM-dd}.log.zip</FilePattern>
+      <PatternLayout>
+        <Pattern>%d{yyyy-MMM-dd HH:mm:ss a} %-5level [%t] %logger{36} - %msg%n</Pattern>
+      </PatternLayout>
+      <Policies>
+       <!-- <TimeBasedTriggeringPolicy interval="1" modulate="true" /> -->
+       		<TimeBasedTriggeringPolicy/>
+      </Policies>
+      <DefaultRolloverStrategy max="5" />
+    </RollingFile>
+
+  </Appenders>
+<!-- 
+  <Loggers>
+    <Logger name="com.aaa" level="trace" additivity="false">
+      <AppenderRef ref="RollingFile" />
+      <AppenderRef ref="Console" />
+    </Logger>
+    <Root level="trace">
+      <AppenderRef ref="Console" />
+      <AppenderRef ref="RollingFile" />
+    </Root>
+  </Loggers>
+ -->
+  <Loggers>
+  		<!-- avoid duplicated logs with additivity=false -->
+        <Logger name="com.aaa" level="debug" additivity="false"/>
+        <Root level="info">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="RollingFile" />
+        </Root>
+    </Loggers>
+</Configuration>  
