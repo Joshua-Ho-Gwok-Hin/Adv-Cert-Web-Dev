@@ -1,0 +1,9 @@
+<div *ngIf="c" class="card" style="width:400px">
+    <img class="card-img-top img-fluid" src={{c.imgPath}} alt="Card Image">
+    <div class="card-body">
+        <h4 class="card-title">{{c.model}} by {{c.make}}</h4>
+        <p class="card-text">
+            Year: {{c.year}}<br>
+            Desciption: {{c.description}};       
+        </p>
+    </div>
