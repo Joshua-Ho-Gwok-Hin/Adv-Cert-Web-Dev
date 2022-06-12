@@ -19,10 +19,10 @@ Angular JS, Java, JSP & Servlets.<br>
 
 CERTIFICATES<br>
 NICF - Advanced Certificate in Software and Applications (Development & Deployment)<br>
-Statement of Attainment by SSG, Singapore: IT-DES-3008-1.1 User Interface Design<br>
-Statement of Attainment by SSG, Singapore: ICT-DES-3005-1.1 Software Design<br>
-Statement of Attainment by SSG, Singapore: ICT-DES-3007-1.1 User Experience Design<br>
-Statement of Attainment by SSG, Singapore: ICT-DES-3001-1.1 Data Design<br>
-Statement of Attainment by SSG, Singapore: ICT-DIT-3002-1.1 Applications Development<br>
-Statement of Attainment by SSG, Singapore: ICT-DIT-3017-1.1 Test Planning<br>
-Statement of Attainment by SSG, Singapore: ICT-OUS-4011-1.1 Problem Management
+ICT-DES-3008-1.1 User Interface Design-3<br>
+ICT-DES-3005-1.1 Software Design-3<br>
+ICT-DES-3007-1.1 User Experience Design-3<br>
+ICT-DES-3001-1.1 Data Design-3<br>
+ICT-DIT-3002-1.1 Applications Development-3<br>
+ICT-DIT-3017-1.1 Test Planning-3<br>
+ICT-OUS-4011-1.1 Problem Management-4
