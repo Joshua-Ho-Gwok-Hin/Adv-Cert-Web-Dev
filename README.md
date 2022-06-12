@@ -1,10 +1,10 @@
 # Advanced Certificate in Information Technology (Software & Applications)<br>
 LITHAN ACADEMY PTE. LTD. (EDUCLAAS) - Sponsored by Singapore Government via SGUS Program
 
-<a href="https://github.com/Joshua-Ho-Gwok-Hin/SGUS-Lithan-ACWD/tree/main/abc-learning-center">ABC Learning Center (Front-End Web Development)</a><br>
-<a href="https://github.com/Joshua-Ho-Gwok-Hin/Adv-Cert-in-IT-Software-Applications/tree/main/car-details">XYZ Cars (Angular Framework)</a><br>
-<a href="https://github.com/Joshua-Ho-Gwok-Hin/Adv-Cert-in-IT-Software-Applications/tree/main/company-structure">Company Structure (Programming Foundation)</a><br>
-<a href="https://github.com/Joshua-Ho-Gwok-Hin/Adv-Cert-in-IT-Software-Applications/tree/main/battleship">Battleship Game (Programming Foundation)</a>
+<a href="https://github.com/Joshua-Ho-Gwok-Hin/Adv-Cert-Web-Dev/tree/main/abc-learning-center">ABC Learning Center (Front-End Web Development)</a><br>
+<a href="https://github.com/Joshua-Ho-Gwok-Hin/Adv-Cert-Web-Dev/tree/main/car-details">XYZ Cars (Angular Framework)</a><br>
+<a href="https://github.com/Joshua-Ho-Gwok-Hin/Adv-Cert-Web-Dev/tree/main/company-structure">Company Structure (Programming Foundation)</a><br>
+<a href="https://github.com/Joshua-Ho-Gwok-Hin/Adv-Cert-Web-Dev/tree/main/battleship">Battleship Game (Programming Foundation)</a>
 
 
 
