@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width-device-width, initial-scale=1">
+		<link href="css/styles.css" rel="stylesheet">
+		<title>All Courses - ABC Learning Center</title>
+		
+		<script src="js/jquery-3.6.0.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#header').load("header.html");
+				$('#footer').load("footer.html");
+				});
+		</script>
+</head>
+
+<body>
+	<header>
+		<div id="header"></div>
+	</header>
+	<main>
+<!-- ********** Page Content Section Start ********** -->
+<div class="container">
+	<p><a href=index.html>Home</a> >> <a href="courses.html">All Courses</a></p>
+	
+	<h1>All Courses</h1>	
+	
+
+		<section class="clearfix box-style">
+			<div class="left-col">
+				<a href="html-details.html">
+					<img id="bounce1" onmouseover="bounce()" src="images/square-html.png" alt="html logo"></a>
+			</div>
+			<div class="right-col">
+				<h2>HTML FUNDAMENTALS</h2>
+				<p>HTML Fundamentals Course is a comprehensive course on HTML to help students understand the basic concepts.<br><br>Course Duration: 30hrs<br><br>
+					<a id="bounceLink1" onmouseover="bounce()" href="html-details.html">Course Details</a>  ·  
+					<a id="bounceLinkMiddle1" onmouseover="bounce()" href="html-schedule.html">Course Schedule</a>  ·  
+					<a id="bounceLinkRight1" onmouseover="bounce()" href="register.html">Course Registration</a></p>
+			</div>
+		</section>
+
+		<section>
+			<div class="left-col">
+				<a href="msoffic-details.html">
+				<img id="bounce2" onmouseover="bounce()" src="images/square-ms-office.png" alt="ms office logo"></a>
+			</div>
+			<div class="right-col">
+				<h2>MS OFFICE</h2>
+				<p>MS Office Course is a comprehensive course on MS Office to help students understand the basic concepts.<br><br>Course Duration: 30hrs<br><br>
+					<a id="bounceLink2" onmouseover="bounce()" href="msoffic-details.html">Course Details</a>  ·  
+					<a id="bounceLinkMiddle2" onmouseover="bounce()" href="msoffic-schedule.html">Course Schedule</a>  ·  
+					<a id="bounceLinkRight2" onmouseover="bounce()" href="register.html">Course Registration</a></p>
+			</div>
+		</section>
+		
+				
+</div>		
+<!--88888888888888888888888888888888
+**********jQuery UI script
+888888888888888888888888888888888888-->
+<script>
+//   object.onmouseover = function(){
+//   $(".bounceWhenHover").toggle( "bounce", { times: 3 }, "slow" );
+// };
+$( "#bounce1" ).hover(function() {
+  $( "#bounce1" ).toggle( "bounce", { times: 1 }, "slow" );
+});
+$( "#bounceLink1" ).hover(function() {
+  $( "#bounce1" ).toggle( "bounce", { times: 1 }, "slow" );
+});
+$( "#bounceLinkMiddle1" ).hover(function() {
+  $( "#bounce1" ).toggle( "bounce", { times: 1 }, "slow" );
+});
+$( "#bounceLinkRight1" ).hover(function() {
+  $( "#bounce1" ).toggle( "bounce", { times: 1 }, "slow" );
+});
+$( "#bounce2" ).hover(function() {
+  $( "#bounce2" ).toggle( "bounce", { times: 1 }, "slow" );
+});
+$( "#bounceLink2" ).hover(function() {
+  $( "#bounce2" ).toggle( "bounce", { times: 1 }, "slow" );
+});
+$( "#bounceLinkMiddle2" ).hover(function() {
+  $( "#bounce2" ).toggle( "bounce", { times: 1 }, "slow" );
+});
+$( "#bounceLinkRight2" ).hover(function() {
+  $( "#bounce2" ).toggle( "bounce", { times: 1 }, "slow" );
+});
+
+
+
+
+
+	// $( function() {
+	//   // run the currently selected effect
+	//   function runEffect() {
+	// 	// get effect type from
+	// 	var selectedEffect = $( "#effectTypes" ).val();
+   
+	// 	// Most effect types need no options passed by default
+	// 	var options = {};
+	// 	// some effects have required parameters
+	// 	if ( selectedEffect === "scale" ) {
+	// 	  options = { percent: 50 };
+	// 	} else if ( selectedEffect === "transfer" ) {
+	// 	  options = { to: "#button", className: "ui-effects-transfer" };
+	// 	} else if ( selectedEffect === "size" ) {
+	// 	  options = { to: { width: 200, height: 60 } };
+	// 	}
+   
+	// 	// Run the effect
+	// 	$( "#effect" ).effect( selectedEffect, options, 500, callback );
+	//   };
+   
+	//   // Callback function to bring a hidden box back
+	//   function callback() {
+	// 	setTimeout(function() {
+	// 	  $( "#effect" ).removeAttr( "style" ).hide().fadeIn();
+	// 	}, 1000 );
+	//   };
+   
+	//   // Set effect from select menu value
+	//   $( "#button" ).on( "click", function() {
+	// 	runEffect();
+	// 	return false;
+	//   });
+	// } );
+	</script>
+
+<!-- ********** Page Content Section Ends ********** -->
+	</main>
+	<footer>
+		<div id="footer"></div>
+	</footer>
+</div></body>
+</html>

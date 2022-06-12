@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width-device-width, initial-scale=1">
+		<link href="css/styles.css" rel="stylesheet">
+		<title>Admin Area - ABC Learning Center</title>
+		<script src="js/jquery-3.6.0.min.js"></script>
+			<script>
+				$(document).ready(function(){
+					$('#header').load("header.html");
+					$('#footer').load("footer.html");
+					});
+			</script>
+</head>
+
+<body onload="showAll()">
+	<header>
+		<div id="header"></div>
+	</header>
+	<main>
+<!-- ********** Page Content Section Start ********** -->
+<script src="js/pet2.js"></script>
+<div class="container">	
+<h1>Adminstration System</h1><br>	
+<div id="form_for_search">
+	<form name="registrationDetails" method="GET" onsubmit="window.location.reload()">
+		<!-- forms for searching -->
+		<div id="SearchPet">
+			<table>
+				<tr>
+					<td width="110px">
+					<label for="user_name"><b>User Name:</b></label>
+					</td>
+					<td>
+        			<input type="text" name="user_name" id="user_name" size="35"/>
+					
+					<input type="button" class="click" value="Retrieve Data" onclick="editRegistrant()">
+       				</td>
+					<td style="width: 35%;" rowspan="13">
+						
+						<h4>Admin guide:</h4>
+						<ul style="line-height: 1.5em;">
+						<li>To creates a NEW USER, <ol><li>Fill in the form and</li><li>Click 'Add New User'</li></ol></li>
+						<li>To EDIT/MAKE CHANGES to an exisitng user, <ol><li>Key in User Name</li><li>Click "Retrieve Data",</li> <li>Edit the relavant fields and then</li><li>Click "Save"</li></ol></li>
+						<li>To DELETE an exisitng user<ol><li>Key in User Name</li><li>click "Retrieve Data" (This is to check the correct USER)</li><li>Click "Delete"</li></ol></li>
+						<li>To make *REMOVE ALL USERS<ol><li>click "Remove all records"</li></ol></li>
+						</ul>
+					</td>
+				</tr>
+				<tr><td><br></td></tr>
+				<tr>
+					<td>
+					<label for="course"><b>Courses:</b></label>
+					</td>
+					<td>
+        			<select name="course" id="course">
+            		<option selected="" value="Default">- Select a course -</option>
+           			 <option value="HTML Fundamentals">HTML Fundamentals</option>
+            		<option value="MS Office">MS Office</option>
+           			 <option value="No idea">I have no idea. I need assistance. Please contact me.</option>
+        			</select>
+					</td>
+				</tr>	
+				<tr><td><br></td></tr>
+				<tr>
+					<td>
+						<label for="email"><b>Email:</b></label>
+					</td>
+					<td>
+						<input type="text" name="email" id="email" size="50" required>
+					</td>
+				</tr>
+				<tr><td><br></td></tr>
+				<tr>
+					<td>
+						<label for="contact"><b>Contact:</b></label>
+					</td>
+					<td>
+						<input type="text" id="contact" name="contact" size="50" required><br>
+					</td>
+				</tr>
+				<tr><td><br></td></tr>
+
+				<tr>
+					<td>
+						<label for="message"><b>Comments:</b></label>
+					</td>
+					<td>
+						<input type="text" id="message" name="message" size="50">
+					</td>
+				</tr>
+				<tr><td><br></td></tr>
+				<!-- </table>		
+			<table> -->
+				<tr id="buttonGroups">
+					<td></td>
+					<td  style="display: flex;" >
+						<input type="button" style="margin-right:10px; width: 130px;" class="click" value="Add New User" onclick="addRegistrant();">
+						<input type="button" style="margin-right:10px; width:130px;" class="click" value="Save" onclick="addRegistrant()">
+						<input type="button" style="width: 130px;" class="click" value="Delete User" onclick="deleteRegistrant()">
+					</td>
+				</tr>
+				<tr><td><br></td></tr>	
+					<tr>
+						<td></td>
+					<td>
+						<input type="button" class="click" style="margin-right:10px;" value="*Remove all records" onclick="clearAll()"><i> *Warning! This button removes all records!!!</i></td>
+					</td>
+				</tr>
+				<tr><td><br></td></tr>
+			</table>
+		</div>
+		<!-- personal information -->
+		<div id="items_table">	
+			<h2>Registrant Details</h2><br>
+
+			<table id=list class="table table-bordered"></table><br><br><br>
+		</div>
+	</form> 
+
+</div>		
+
+<!-- ********** Page Content Section Ends ********** -->
+	</main>
+	<footer>
+		<div id="footer"></div>
+	</footer>
+</div></body>
+</html>
