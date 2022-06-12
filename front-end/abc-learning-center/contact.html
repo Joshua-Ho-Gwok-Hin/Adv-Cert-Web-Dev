@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE-edge">
+		<meta name="viewport" content="width-device-width, initial-scale=1">
+		<link href="css/styles.css" rel="stylesheet">
+		<title>Contact Us - ABC Learning Center</title>
+		
+		<script src="js/jquery-3.6.0.min.js"></script>
+			<script>
+				$(document).ready(function(){
+					$('#header').load("header.html");
+					$('#footer').load("footer.html");
+					});
+			</script>
+</head>
+
+<body>
+	<header>
+		<div id="header"></div>
+	</header>
+	<main>
+<!-- ********** Page Content Section Start ********** -->
+<div class="container">
+<p><a href=index.html>Home</a> >> <a href="contact.html">Contact Us</a></p>
+
+	<h1>Contact Us</h1>	
+	<br>
+
+<!-- Division on the left -->
+	<div style="float:left;"><img width="70%" height="auto" src="images/map.jpg"/>
+	<div><p style="line-height: 1.7em;"><br><B>Address :</B><br>
+		123 Happy Road, #18-01 Singapore 321123<br>
+		<B>Phone :</B><br>
+		+65 6543 3211<br>
+		<B>Operating Hours: </B><br>
+		Mondays to Fridays,<br>9am to 5pm except PH
+		</p><br><br>	</div></div>
+		
+<!-- Division on the right -->
+
+<!-- <form accept-charset="UTF-8" action="action_page.php" autocomplete="off" method="GET" target="_blank"> -->
+	<fieldset class="formcss">
+	<legend>Send us an email</legend>
+
+	<label for="name">Name:</label><br /> 
+	<input name="name" type="text" size="48" value="" /><br /><br />
+	<label for="telephone">Phone:</label><br /> 
+	<input name="telephone" type="telephone" size="48" value="" /><br /><br />
+	<label for="email">Email:</label><br /> 
+	<input name="email" type="email" size="48" value="" /><br /><br />
+	<label for="comments">Your Comments:</label><br /> 
+	<textarea cols="51" rows="5"></textarea><br /><br> 
+	<a href="thankyou.html"><button type="submit" value="Submit">Submit</button></a> <br><br><br>
+	</fieldset>
+</form>
+<!-- <form accept-charset="UTF-8" action="action_page.php" autocomplete="off" method="GET" target="_blank">
+	<fieldset>
+	<legend>Send us an email</legend>
+	<label for="name">Name:</label><br /> 
+	<input name="name" type="text" value="" /><br /><br />
+	<label for="telephone">Phone:</label><br /> 
+	<input name="telephone" type="number" value="" /><br /><br />
+	<label for="email">Email:</label><br /> 
+	<input name="email" type="email" value="" /><br /><br />
+	<label for="comments">Your Comments:</label><br /> 
+	<textarea cols="30" rows="2"></textarea><br /> 
+	<input name="democheckbox" type="checkbox" value="1" /> Checkbox<br /> 
+	<button type="submit" value="Submit">Submit</button>
+	</fieldset>
+</form> -->
+</div>		
+<!-- ********** Page Content Section Ends ********** -->
+	</main>
+	<footer>
+		<div id="footer"></div>
+	</footer>
+</div></body>
+</html>
