@@ -88,7 +88,7 @@ public class BattleShipAssignment {
                 System.out.println("Cannot place more than 1 ship in the same location!");
             } // if else
         }// while loop
-//        printDash();
+       printDash();
         printOceanMap();
     }// deployShips()
 
@@ -137,7 +137,7 @@ public class BattleShipAssignment {
         numShipsPlayer = TOTAL_SHIPS;
         numShipsComputer = TOTAL_SHIPS;
         while (!gameOver) {
-//            printDash();
+           printDash();
             System.out.println("YOUR TURN:");
             System.out.print("Enter X coordinate: ");
             i= getShipLocation();
