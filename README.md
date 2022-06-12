@@ -1,7 +1,8 @@
 # Advanced Certificate in Information Technology (Software & Applications)<br>
 LITHAN ACADEMY PTE. LTD. (EDUCLAAS) - Sponsored by Singapore Government via SGUS Program
 
-<p><a href="https://github.com/Joshua-Ho-Gwok-Hin/SGUS-Lithan-ACWD/tree/main/abc-learning-center">ABC Learning Center (Front-End Web Development)</a></p>
+<a href="https://github.com/Joshua-Ho-Gwok-Hin/SGUS-Lithan-ACWD/tree/main/abc-learning-center">ABC Learning Center (Front-End Web Development)</a><br>
+<a href="https://github.com/Joshua-Ho-Gwok-Hin/Adv-Cert-in-IT-Software-Applications/tree/main/car-details">XYZ Cars (Angular Framework)</a>
 
 A general depository of Projects and Assignments for self reference.<br>
 
