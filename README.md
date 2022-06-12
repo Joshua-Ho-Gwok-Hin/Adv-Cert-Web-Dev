@@ -14,7 +14,7 @@ Acquire Web Development Skills in: <br>
 HTML, CSS & JavaScript.<br>
 Angular JS, Java, JSP & Servlets.<br>
 
-ADVANCED CERTIFICATE IN INFOCOMM TECHONOLOGY (SOFTWARE AND APPLICATIONS)<br>
+ADVANCED CERTIFICATE IN INFOCOMM TECHNOLOGY (SOFTWARE AND APPLICATIONS)<br>
 ICT-DES-3008-1.1 User Interface Design-3<br>
 ICT-DES-3005-1.1 Software Design-3<br>
 ICT-DES-3007-1.1 User Experience Design-3<br>
