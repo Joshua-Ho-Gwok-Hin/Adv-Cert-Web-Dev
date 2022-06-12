@@ -1,4 +1,5 @@
-# SGUS ACWD Advanced Certificate in Web Development
+# Advanced Certificate in Information Technology (Software & Applications)<br>
+LITHAN ACADEMY PTE. LTD. (EDUCLAAS) - Sponsored by Singapore Government via SGUS Program
 
 <p><a href="https://github.com/Joshua-Ho-Gwok-Hin/SGUS-Lithan-ACWD/tree/main/abc-learning-center">ABC Learning Center (Front-End Web Development)</a></p>
 
@@ -16,3 +17,4 @@ Statement of Attainment by SSG, Singapore: ICT-DES-3007-1.1 User Experience Desi
 Statement of Attainment by SSG, Singapore: ICT-DES-3001-1.1 Data Design<br>
 Statement of Attainment by SSG, Singapore: ICT-DIT-3002-1.1 Applications Development<br>
 Statement of Attainment by SSG, Singapore: ICT-DIT-3017-1.1 Test Planning<br>
+Statement of Attainment by SSG, Singapore: ICT-OUS-4011-1.1 Problem Management
