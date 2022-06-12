@@ -1,4 +1,4 @@
-# Advanced Certificate in Information Technology (Software & Applications)<br>
+# Advanced Certificate in Infocomm Technology (Software & Applications)<br>
 LITHAN ACADEMY PTE. LTD. (EDUCLAAS) - Sponsored by Singapore Government via SGUS Program
 
 <a href="https://github.com/Joshua-Ho-Gwok-Hin/Adv-Cert-Web-Dev/tree/main/abc-learning-center">ABC Learning Center (Front-End Web Development)</a><br>
@@ -7,18 +7,13 @@ LITHAN ACADEMY PTE. LTD. (EDUCLAAS) - Sponsored by Singapore Government via SGUS
 <a href="https://github.com/Joshua-Ho-Gwok-Hin/Adv-Cert-Web-Dev/tree/main/company-structure">Company Structure (Java Object Oriented Programming)</a><br>
 <a href="https://github.com/Joshua-Ho-Gwok-Hin/Adv-Cert-Web-Dev/tree/main/database">ABC Jobs Database (Database Design)</a>
 
-
-
-
-
 A general depository of Projects and Assignments for self reference.<br>
 
 Acquire Web Development Skills in: <br>
 HTML, CSS & JavaScript.<br>
 Angular JS, Java, JSP & Servlets.<br>
 
-CERTIFICATES<br>
-NICF - Advanced Certificate in Software and Applications (Development & Deployment)<br>
+ADVANCED CERTIFICATE IN INFOCOMM TECHONOLOGY (SOFTWARE AND APPLICATIONS)<br>
 ICT-DES-3008-1.1 User Interface Design-3<br>
 ICT-DES-3005-1.1 Software Design-3<br>
 ICT-DES-3007-1.1 User Experience Design-3<br>
