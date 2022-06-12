@@ -62,12 +62,12 @@ public class BattleShipAssignment {
         System.out.println("  0123456789");
     }// printRow()
 
-//    private static void printDash() {
-//        for (int i = 1; i < 50; i++) {
-//            System.out.print("-");
-//        }
-//        System.out.println();
-//    }// printDash()
+   private static void printDash() {
+       for (int i = 1; i < 50; i++) {
+           System.out.print("-");
+       }
+       System.out.println();
+   }// printDash()
 
     private static void deployShips() {
         int addShip = 1;
@@ -204,53 +204,4 @@ public class BattleShipAssignment {
         }
         System.out.println();
     }
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
